@@ -1,0 +1,17 @@
+{
+  "name": "Snooker Scoreboard",
+  "short_name": "Snooker",
+  "description": "Free snooker scoreboard for 2 to 10 players. Works offline.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#062A1D",
+  "theme_color": "#062A1D",
+  "categories": ["sports", "utilities"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
