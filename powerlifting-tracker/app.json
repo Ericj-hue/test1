@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Lift Habits",
+    "slug": "powerlifting-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "lifthabits",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.lifthabits.app",
+      "supportsTablet": true,
+      "infoPlist": { "ITSAppUsesNonExemptEncryption": false }
+    },
+    "android": {
+      "package": "com.lifthabits.app",
+      "versionCode": 1
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
